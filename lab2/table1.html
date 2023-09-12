@@ -7,6 +7,32 @@
 	<!-- title is optional but recommend to declare. if title is set as blank (empty), the default title is file name !-->
 </head>
 <body>
-
+<table border="1" align="center">
+	<tr align="center">
+		<td>Column 1</td>
+		<td>Column 2</td>
+		<td>Column 3</td>
+	</tr>
+	<tr align="center">
+		<!-- rowspan: is used to merge rows
+			rowspan="2" => merge 2 rows
+			rowspan="5" => merge 5 rows
+		!-->
+		<td rowspan="2">Row 1 Cell 1</td>
+		<td>Row 1 Cell 2</td>
+		<td>Row 1 Cell 3</td>
+	</tr>
+	<tr align="center">
+		<td>Row 2 Cell 2</td>
+		<td>Row 2 Cell 3</td>
+	</tr>
+	<tr>
+		<!-- colspan: is used to merge columns
+			colspan="2" => merge 2 columns
+			colspan="5" => merge 3 columns
+		!-->
+		<td colspan="3">Row 3 Cell 1</td>
+	</tr>
+</table>
 </body>
 </html>
