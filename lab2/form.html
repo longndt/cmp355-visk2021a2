@@ -1,4 +1,50 @@
-<center>
-	<h1>Hello world </h1>
-	<p>Today is Tuesday</p>
-</center>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Demo</title>
+</head>
+<body>
+	<form method="post">
+		<h1>User Login</h1>
+		<!-- required: must input data, can not leave it empty -->
+		<!-- input type="password": hide the input data -->
+		Username: <input type="text" required>
+		<br><br>
+		Password: <input type="password" required>
+		<br><br>
+		<input type="submit" value="Login">
+	</form>
+	<hr>
+	<form method="post">
+      <h1>Add new student</h1>
+      Full name: <input type="text" placeholder="Enter full name"  
+      minlength="5" maxlength="30" required size="30">
+      <br><br>
+      University: <input type="text" value="VNU International School" readonly >
+      <br><br>
+      Date of birth: <input type="date" required>
+      <br><br>
+      Email: <input type="email" required>
+       <br><br>
+       Student year: <input type="number" min="1" max="5">
+       <br><br>
+       <!-- radio button is used to select only 1 option -->
+       Gender: 
+       Male <input type="radio" name="gender">
+       Female <input type="radio" name="gender">
+       LGBT <input type="radio" name="gender">
+       <br><br>
+       <!-- checkbox is used to select 0, 1 or many options -->
+      Hobbies: <br>
+      Music <input type="checkbox"><br>
+      Movie <input type="checkbox"><br>
+      Tourism<input type="checkbox"><br>
+      Shopping<input type="checkbox"><br>
+      Games<input type="checkbox"><br>
+      <br><br>
+      <input type="submit" value="Add">
+	</form>
+</body>
+</html>
