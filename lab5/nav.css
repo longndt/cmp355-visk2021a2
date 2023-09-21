@@ -1,0 +1,25 @@
+nav a {
+   text-decoration: none;
+   font-family: fantasy;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+nav ul {
+   background-color: black;
+   text-align: center;
+}
+
+nav li {
+   display: inline-block;  /* very important */
+   font-size: 24px;
+   height: 30px;
+   padding: 15px;
+}
+
+/* hover effect : optional but recommend */
+nav a:hover {
+   text-decoration: underline;
+   font-style: italic;
+   color: red;
+}

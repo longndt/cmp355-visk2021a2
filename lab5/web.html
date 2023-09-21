@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Tutorial</title>
+	<!-- 2nd way: internal CSS -->
+	<style type="text/css">
+		/*  element {
+			  attribute : value
+			}
+		*/
+		h3 {
+  			text-decoration: underline;
+  			font-style: italic;		
+		}
+		h6 {
+			color: lime;
+			background-color: yellow;
+			border: 3px red dotted;  /* width - color - type */
+		}
+		img {
+			 width: 10%;
+			 height: 10%;
+		}
+		img#circle {
+			 border-radius: 50%;
+		}
+		h6#a2 {
+			color: blue;
+		}
+		/* this css will be applied for all p  */
+		p {
+			background-color: orangered;
+			font-size: 200%;
+		}
+		/* this css is only applied for p with id="p1" */
+		p#p1 {
+			color: blue;
+			font-style: italic;
+		}
+		/* this css is only applied for p with id="p2" */
+		p#p2 {
+			color: yellow;
+			font-weight: bold;
+		}
+		h4, h5 {
+			color: darkgoldenrod;
+			text-align: left;
+			text-decoration: underline;
+			font-family: cursive;
+		}
+		.vnu {
+			border: 2px dotted yellow;
+		}
+		.fpt {
+			background-color: khaki;
+		}
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+			background-color: yellow;
+			font-style: italic;
+		}
+		img:hover {
+			border-radius: 50%;
+			border: 2px green dashed;
+		}
+	</style>
+	<!-- 3rd way: external CSS -->
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	<img src="https://w0.peakpx.com/wallpaper/209/34/HD-wallpaper-cute-puppy-dog-dogs-puppies-sweet-white-thumbnail.jpg">
+	<br>
+	<a href="#">VNU</a>
+	<a href="#">FTU</a>
+	<a href="#">HUST</a>
+	<a href="#">HAU</a>			
+
+	<p id="p1">This is paragraph 1</p>
+	<p id="p2">This is paragraph 2</p>
+	<p class="vnu">This is paragraph 3</p>
+
+	<h4 class="vnu">This is heading 4</h4>
+	<h4 class="fpt">This is heading 4</h4>
+	<h5 class="fpt">This is heading 5</h5>
+
+	<h3 class="vnu">Heading 3 here</h3>
+
+
+	<img id="circle" src="https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxZL0pFfZ7t3aBcDBA5BTwVuod7Q9UU25AK2URYLTIsnqNMoeh0qi6KjuPSwOeoeCJDIk&usqp=CAU">
+	<h6 id="a2">VISK2021A2</h6>
+	<h6> Hanoi is the capital of Vietnam </h6>
+	<h6> Bangkok is the capital of Thailand </h6>
+	<h6> Washington DC is the capital of United States</h6>
+	<!-- 1st way: inline CSS -->
+	<!-- style="attribute : value" -->
+	<h1 style="color: red">Vietnam National University</h1>
+	<h2 style="background-color: blue">International School</h2>
+	<h3 style="font-size: 500%;
+			   font-family: monospace;
+	">Web Design</h3>
+	<h3>Programming</h3>
+	<h3>Coding</h3>
+	<p style="font-weight: bold;">Today is Thursday</p>
+</body>
+</html>

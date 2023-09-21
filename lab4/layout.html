@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web layout</title>
+	<!-- internal css -->
+	<style type="text/css">
+		h1, h2 {
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<!-- inline css -->
+<h1 style="color: red; font-style: italic; text-decoration: underline;">Build website layout with table</h1>
+<p>This is a paragraph</p>
+<h1>Another heading 1</h1>
+<h1>Another heading 1</h1>
+<h2>This is heading 2</h2>
+<table border="1">
+	<thead>
+		<tr bgcolor="yellow">
+				<th> 
+					<div id="header">
+							<h1>HEADER</h1>
+					</div>
+				</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr bgcolor="blue">
+				<th> 
+					<div id="main">
+						<h1>MAIN</h1>
+					</div>
+				</th>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr bgcolor="red">
+			<th>
+				<div id="footer">
+						<h1>FOOTER</h1>
+				</div>
+			</th>
+		</tr>
+	</tfoot>
+</table>
+<br><br>
+<table border="1">
+		<tr>
+			<th bgcolor="green"> 
+					<div id="left">
+							<h1>LEFT</h1>
+					</div>
+			</th>
+			<th bgcolor="blue">
+					<div id="center">
+							<h1>CENTER</h1>
+					</div>
+			</th>
+			<th bgcolor="orange">
+					<div id="right">
+							<h1>RIGHT</h1>
+					</div>
+			</th>
+		</tr>
+</table>
+</body>
+</html>
