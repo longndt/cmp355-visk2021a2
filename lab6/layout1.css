@@ -4,6 +4,11 @@ body {
 	margin: 0 auto;
 }
 
+div#header {
+	background-color: burlywood;
+	height: 50px;
+}
+
 div#navigation {
 	background-color:cyan;
 	height: 100px;
@@ -25,7 +30,13 @@ div#logo h1 {
 div#logo img {
 	width: 100px;
 	height: 80px;
+	border-radius: 50%;
 }
+
+div#logo img:hover {
+	border: 2px red solid;
+}
+
 
 div#left{
 	clear: left;
@@ -39,7 +50,8 @@ div#main {
 	background-color: yellowgreen;
 	float: left;
 	height: 300px;
-	width: 40%;
+	width: 38%;
+	border: 2px solid yellow;
 }
 
 div#right{

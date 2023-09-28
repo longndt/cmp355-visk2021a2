@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Column layout */
+.sidebar-one {
+    background-color: rgb(47, 237, 199);
+    height: 250px;
+}
+
+.main-column {
+    background-color: rgb(247, 200, 106);
+    height: 250px;
+}
+
+.sidebar-two {
+    background-color: rgb(93, 82, 255);
+    height: 250px;
+}
+
+/* Feature layout */
+.feature-layout {
+}
+
+.feature-item:nth-child(1) {
+    background-color: rgb(192, 227, 222);
+    height: 150px;
+}
+
+.feature-item:nth-child(2) {
+    background-color: rgb(227, 200, 192);
+    height: 150px;
+}
+
+.feature-item:nth-child(3) {
+    background-color: rgb(226, 192, 227);
+    height: 150px;
+}
+
+.feature-item:nth-child(4) {
+    background-color: rgb(492, 142, 267);
+    height: 150px;
+}

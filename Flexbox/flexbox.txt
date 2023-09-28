@@ -1,0 +1,18 @@
+CSS Flexbox
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+https://codepen.io/enxaneta/full/adLPwv/
+
+display: flex | inline-flex
+flex-direction: row | column | row-reverse | column-reverse
+flex-wrap: nowrap | wrap | wrap-reverse
+flex-basis: <length>
+justify-content: flex-start | flex-end | center | space-between | space-around
+justify-self: flex-start | flex-end | center
+align-content: flex-start | flex-end | center 
+align-self: flex-start | flex-end | center 
+flex-grow: <number>
+flex-shrink: <number>
+flex: <flex-grow> | <flex-shrink> | <flex-basis>
+flex-flow: <flex-direction> | <flex-wrap>
+order: <number>
