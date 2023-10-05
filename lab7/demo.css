@@ -1,0 +1,26 @@
+/* External style : 3rd priority */
+body {
+	background-color: aqua;
+}
+
+selector1, selector2 {
+	property1: value1;
+	property2: value2;
+	.....
+}
+
+nav, h1, p {
+	color: red;
+	font-family: sans-serif;
+}
+
+
+h3#vnu {}
+
+p.web {}
+
+nav a 
+
+nav>a 
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Demo</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<!-- Internal style : 2nd priority -->
+	<style type="text/css">
+		body {
+			background-color: limegreen;
+		}
+		div#header {  }
+		header {  }
+		div#sidebar {}
+		aside#left {  }
+		nav ul li a {
+			text-decoration: none;
+			font-family: monospace;
+			text-transform: uppercase;
+		}
+		nav ul li {
+			list-style-type: none;
+			display: inline-block;
+			padding-right: 15px;
+		}
+		input:focus {
+			background-color: yellowgreen;
+		}
+		/* before visited */
+		a:link {
+			color: blue;
+		}
+		/* after visited */
+		a:visited {
+			color: red;
+		}
+		img {
+			opacity: 50%;
+		}
+		img:hover {
+			opacity: 100%;
+		}
+	</style>
+</head>
+<!-- Inline style: 1st priority -->
+<body>
+	<img src="https://www.vnu.edu.vn/home/images/logo.png">
+	<br>
+	<a href="https://www.website.com/">Website</a>
+	<br>
+	Name: <input type="text" name="">
+    Age: <input type="number" name="">
+
+	<!-- Old way: set id with name for each div (division)  -->
+	<div id="header"></div>
+	<div id="navigation"></div>
+	<div id="main"></div>
+	<div id="sidebar"></div>
+	<div id="footer"></div>
+   
+    <!-- New way: use HTML5 tags (better, more convenient) -->
+    <!-- Top -->
+    <header></header>
+    <nav>
+    	<ul>
+    		<li>
+    			<a href="#">Home</a>
+    		</li>
+    		<li>
+    			<a href="#">About</a>
+    		</li>
+    	</ul>
+    </nav>
+    <nav>
+    	<a href="#">Contact</a>
+    </nav>
+    <!-- Center -->
+    <aside id="left"></aside>
+    <main>
+    	<article>
+    		<section id="html5">
+    			<h1>HTML5</h1>
+    			<p class="first">
+    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    			<img src="">
+    		</p>
+    		</section>
+    		<section>
+    		<h2>CSS3</h2>
+    		<p class="second">
+    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    			<video></video>
+    		</p>
+    		</section>
+    	</article>
+    </main>
+    <aside id="right"></aside>
+    <!-- Bottom -->
+    <footer></footer>
+</body>
+</html>
