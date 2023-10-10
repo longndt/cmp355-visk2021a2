@@ -1,0 +1,43 @@
+body { 
+	background-color: #5be3ca; /* hex code */
+}
+
+/* set format for only element h1
+with id = "head1" */
+h1#head1 {
+	color: rgb(76, 92, 133); /* rgb code */
+	font-family: Courier New, monospace;
+	text-transform: lowercase;
+	text-shadow: 3px 4px 8px yellow; /* vertical horizontal blur color */
+}
+
+/* set format for all element with class = "vnu" */
+.vnu {
+	border: 3px solid red;
+
+}
+main article p {
+	font-weight: bold;
+	font-size: 1em;
+	font-family: Times New Roman, san-serif;
+}
+
+section p {
+	font: bold 15px serif; /* short hand of "font" */
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	line-height: 15px;
+	text-decoration: line-through;
+}
+
+/* include html tag name along with id name 
+if there were many tag with same id */
+span#new_price {
+	font-weight: bold;
+}
+
+/* if there is only 1 id name to be used,
+we don't need to insert tag name befor it */
+#old_price {
+	text-decoration: line-through;
+}
